@@ -1,0 +1,325 @@
+[
+    {
+        "name": "DailyJS",
+        "permalink": "http://dailyjs.com/",
+        "img": "https://pbs.twimg.com/profile_images/510809297/Untitled-1_200x200.gif",
+        "description": {
+            "en": "A JavaScript Blog.",
+            "he": "בלוג טוב על גאווה סקריפט",
+            "es": "Un blog de JavaScript.",
+            "pt": "Um blog de JavaScript.",
+            "de": "Ein JavaScript Blog.",
+            "fr": "Un blog sur le JavaScript.",
+            "pl": "Blog o JavaScript.",
+            "du": "Een JavaScript Blog.",
+            "jp": "JavaScriptに関するブログ",
+            "zh": "A JavaScript Blog."
+        }
+    },
+
+    {
+        "name": "The Morning Brew",
+        "permalink": "http://blog.cwa.me.uk/",
+        "img": "https://uptodate.frontendrescue.org/src/assets/no-image.png",
+        "description": {
+            "en": "A Daily .NET Software Development Link Blog.",
+            "he": "בלוג יומי על דוט נט ",
+            "es": "Un blog diario de links de Desarrollo de Software en .NET.",
+            "pt": "Um blog com notícias diárias de Desenvolvimento de Software com .NET.",
+            "de": "Ein täglicher .NET Software Development Link Blog.",
+            "fr": "Un blog avec des liens journaliers sur le développement en .NET.",
+            "pl": "Codzienna dawka .NET software development blog.",
+            "du": "Een blog met elke dag een verzameling links over .NET Software ontwikkeling.",
+            "jp": ".NETソフトウェア開発に関するブログのリンク集",
+            "zh": "A Daily .NET Software Development Link Blog."
+        }
+    },
+
+    {
+        "name": "Treehouse Blog",
+        "permalink": "http://blog.teamtreehouse.com/",
+        "img": "https://pbs.twimg.com/profile_images/378800000120934863/af36998196339688895927c8adf0ed6d_200x200.png",
+        "description": {
+            "en": "The Treehouse blog provides valuable content on web development, web design, and startup tips.",
+            "he": "הבלוג של בית העץ מספק תוכן בעל ערך בפיתוח אתרים, עיצוב אתרים, וטיפים להפעלה.",
+            "es": "El blog de Treehouse provee de contenido valorable en desarrollo web, diseño web, y tips para startup.",
+            "pt": "O blog The Treehouse fornece conteúdos valisosos de desenvolvimento web, web design e dicas de startup.",
+            "de": "Der Treehouse Blog bietet wertvolle Inhalte zu Webentwicklung, Webdesign und Start-Up Tipps.",
+            "fr": "Le blog Treehouse fournit un contenu intéressant sur le développement web, le design web et des astuces pour les startups.",
+            "pl": "Treehouse Blog zawiera wiele wartościowych informacji na temat web development, designu i wskazówki dotyczące startupów.",
+            "du": "Het Treehouse blog geeft waardevolle informatie over web ontwikkeling, webdesign en het starten van je eigen bedrijf.",
+            "jp": "ウェブ開発やウェブデザイン、スタートアップに関する役立つ情報が見つかるブログ",
+            "zh": "The Treehouse blog provides valuable content on web development, web design, and startup tips."
+        }
+    },
+
+    {
+        "name": "EchoJS",
+        "permalink": "http://www.echojs.com/",
+        "img": "https://pbs.twimg.com/profile_images/3225992358/d40ef3d81a730788f7da4e1649fddeef_200x200.png",
+        "description": {
+            "en": "A HackerNews-like site dedicated to JavaScript and Front-end News.",
+            "he": "אתר דמוי HackerNews המוקדש לJavaScript ו-Front-end חדשות.",
+            "es": "Un sitio dedicado a novedades de JavaScript y Front-end.",
+            "pt": "Site de notícias sociais dedicados a JavaScript e tópicos relacionados.",
+            "de": "Eine HackerNews-ähnliche Seite zu den Themen JavaScript und Front-End News.",
+            "fr": "Un site similaire à HackerNews dédié aux nouveautés sur le JavaScript et le développement Front-End.",
+            "pl": "Podobna do HackerNews strona poświęcona JavaScript i nowości ze świata Front-End.",
+            "du": "Een website die lijkt op HackerNews, maar volledig gewijd aan JavaScript en Front-end nieuws.",
+            "jp": "HackerNews風にJavaScripotやフロントエンドの情報を得られるサイト",
+            "zh": "A HackerNews-like site dedicated to JavaScript and Front-end News."
+        }
+    },
+
+    {
+        "name": ".net Magazine",
+        "permalink": "http://www.creativebloq.com/net-magazine/",
+        "img": "https://pbs.twimg.com/profile_images/378800000697523305/d556bef753c6ac3933e9d5bf9f147418_200x200.jpeg",
+        "description": {
+            "en": ".net is the world’s best-selling magazine for web designers and developers.",
+            "he": ".net הוא המגזין הנמכר ביותר בעולם למעצבי אתרים ומפתחים.",
+            "es": ".net es el portal más popular del mundo para diseñadores web y desarrolladores.",
+            "pt": ".net é a revista mais vendida do mundo para desenvolvedores e designers.",
+            "de": ".net ist das weltweit meistverkaufte Magazin für Webdesigner und -entwickler.",
+            "fr": ".net est le magazine le plus vendu dans le monde pour les designers et les développeurs web.",
+            "pl": ".net jest numer 1 na świecie najlepiej sprzedającym się magazynem dla web designerów i deweloperów.",
+            "du": ".net is best verkochte tijdschrift ter wereld voor webdesigners en ontwikkelaars.",
+            "jp": "世界で最も多く読まれている、ウェブデザイナー・ディベロッパー向けの雑誌",
+            "zh": ".net is the world’s best-selling magazine for web designers and developers."
+        }
+    },
+
+    {
+        "name": "Web Platform",
+        "permalink": "http://blog.webplatform.org/",
+        "img": "https://pbs.twimg.com/profile_images/2691396636/9a00b3fec026f64ba02a55adbfbe5ec0_200x200.png",
+        "description": {
+            "en": "An open community of developers building resources for a better web.",
+            "he": "קהילה פתוחה של משאבי בניין מפתחים לאינטרנט טוב יותר.",
+            "es": "Una comunidad abierta de desarrolladores contruyendo recursos para una web mejor.",
+            "pt": "Uma comunidade aberta de desenvolvedores construindo recursos por uma web melhor.",
+            "de": "Eine offene Community aus Entwicklern, die Ressourcen für ein besseres Netz bereitstellt.",
+            "fr": "Une communauté ouverte de développeurs pour construire des ressources pour un web meilleur.",
+            "pl": "Społeczność open-source dla deweloperów budujących dla lepszego świata web.",
+            "du": "Een openbare groep van ontwikkelaars die een weg plaveien naar een beter web.",
+            "jp": "より良いウェブの実現を目指し、ディベロッパーが集まるオープンなコミュニティ",
+            "zh": "An open community of developers building resources for a better web."
+        }
+    },
+
+    {
+        "name": "HTML5 ROCKS",
+        "permalink": "http://html5rocks.com/",
+        "img": "https://pbs.twimg.com/profile_images/1320180647/chromiumchrome_200x200.png",
+        "description": {
+            "en": "Posts, tutorials, case study & demos.",
+            "he": "הדרכות והדגמות מהממוחים הכי טובים בתחום",
+            "es": "Arículos, tutoriales, casos de estudio y ejemplos.",
+            "pt": "Posts, tutoriais, estudos de caso & demos.",
+            "de": "Artikel, Anleitungen, Fallstudien & Demos.",
+            "fr": "Articles, tutoriels, cas d'études et démos.",
+            "pl": "Artykuły, tutoriale, praktyki i dema.",
+            "du": "Berichten, handleidingen, casussen en demonstraties.",
+            "jp": "HTML5に関する投稿、チュートリアル、ケース・スタディ、デモなど",
+            "zh": "Posts, tutorials, case study & demos."
+        }
+    },
+
+    {
+        "name": "HTML5 Doctor",
+        "permalink": "http://html5doctor.com/",
+        "img": "https://pbs.twimg.com/profile_images/477362201959755776/kWiOv93d_200x200.png",
+        "description": {
+            "en": "A blog to help you learn more about HTML5.",
+            "he": "בלוג שיעזרו לך ללמוד יותר על HTML5.",
+            "es": "Un blog para ayudarte a aprender HTML5.",
+            "pt": "Um blog que irá ajudar a você aprender mais sobre HTML5.",
+            "de": "Ein Blog der dir hilft, mehr über HTML5 zu lernen.",
+            "fr": "Un blog pour vous aider à en savoir plus à propos de HTML5.",
+            "pl": "Blog który pomoże Ci uczyć się więcej o HTML5.",
+            "du": "Een blog dat je helpt om meer te leren over HTML5.",
+            "jp": "HTML5をより深く学びたい人向けのサイト",
+            "zh": "A blog to help you learn more about HTML5."
+        }
+    },
+
+    {
+        "name": "Nettuts+",
+        "permalink": "http://net.tutsplus.com/",
+        "img": "https://pbs.twimg.com/profile_images/440360139866910721/CSiOk6MT_200x200.png",
+        "description": {
+            "en": "Tutorials, articles, tips, and community for web developers.",
+            "he": "הדרכות, מאמרים, טיפים, וקהילה עבור מפתחי אינטרנט.",
+            "es": "Tutoriales, artículos, consejos, y comunidad para desarrolladores web.",
+            "pt": "Tutoriais, artigos, dicas e comunidade para desenvolvedores web.",
+            "de": "Tutorials, Artikel, Tipps und eine Community für Webentwickler.",
+            "fr": "Tutoriels, articles, astuces et communauté pour les développeurs web.",
+            "pl": "Tutoriale, artykuły, porady i społeczność dla deweloperów.",
+            "du": "Handleidingen, artikelen, tips en een ontmoetingsplaats voor web ontwikkelaars.",
+            "jp": "ウェブ・ディベロッパー向けのチュートリアルや記事、役立つ情報、コミュニティ",
+            "zh": "Tutorials, articles, tips, and community for web developers."
+        }
+    },
+
+    {
+        "name": "QuirksMode",
+        "permalink": "http://www.quirksmode.org/",
+        "img": "https://pbs.twimg.com/profile_images/477425031593488384/95qvvrzD_200x200.jpeg",
+        "description": {
+            "en": "It is the prime source for browser compatibility information on the Internet.",
+            "he": "זהו המקור העיקרי למידע על תאימות דפדפן באינטרנט.",
+            "es": "La principal fuente de información en internet en compatibilidad entre navegadores.",
+            "pt": "É a principal fonte de informações sobre a compatibilidade de navegadores na Internet.",
+            "de": "Die primäre Quelle für Informationen zu Browserkompatibilität im Internet.",
+            "fr": "Source de premier ordre sur le sujet de la compatibilité des navigateurs.",
+            "pl": "To jest główne źródło dotyczące zgodności z przeglądarkami w Internecie.",
+            "du": "De primaire bron voor informatie over de ondersteuning van standaarden in browerser.",
+            "jp": "ネット上で最も信頼されている、ブラウザ互換性情報が得られるサイト",
+            "zh": "It is the prime source for browser compatibility information on the Internet."
+        }
+    },
+
+    {
+        "name": "CSS-TRICKS",
+        "permalink": "http://css-tricks.com/",
+        "img": "https://pbs.twimg.com/profile_images/546011298627334146/MAeF2-yK_200x200.jpeg",
+        "description": {
+            "en": "A web design community.",
+            "he": "קהילת עיצוב אתרים.",
+            "es": "Una comunidad de diseño web.",
+            "pt": "Uma comunidade de web design.",
+            "de": "Eine Webdesign Community.",
+            "fr": "Une communauté sur le design web.",
+            "pl": "Społeczność dotycząca web designu.",
+            "du": "Een ontmoetingsplek voor webdesigners.",
+            "jp": "ウェブ・デザインに関するコミュニティ",
+            "zh": "A web design community."
+        }
+    },
+
+    {
+        "name": "CSS Wizardry",
+        "permalink": "http://csswizardry.com/",
+        "img": "https://pbs.twimg.com/profile_images/378800000842511021/741a0a2593ea55bbd6238f8705c7074f_200x200.jpeg",
+        "description": {
+            "en": "A specialised blog in writing and scaling CSS for large apps and websites.",
+            "he": "בלוג המתמחה בכתיבה ומדרוג CSS עבור יישומים ואתרי אינטרנט גדולים.",
+            "es": "Un blog especializado en como escribir y escalar CSS para grandes aplicaciones y sitios web.",
+            "pt": "Um blog especializado em escrever CSS para grandes aplicativos e websites.",
+            "de": "Ein Blog, der sich auf das Schreiben und Anpassen von CSS für große Apps und Websites spezialisiert hat.",
+            "fr": "Un blog spécialisé sur l'écriture et le dimensionnement des CSS pour des applications et des sites web de grande ampleur.",
+            "pl": "Blog specializujący się w pisaniu i skalowaniu CSS dla dużych aplikacji i stron internetowych.",
+            "du": "Een gespecialiseerd blog over het schrijven van schaalbare CSS voor grote applicates en websites.",
+            "jp": "大規模なウェブ・アプリケーションやウェブサイトに求められるCSSの書き方に特化したサイト",
+            "zh": "A specialised blog in writing and scaling CSS for large apps and websites."
+        }
+    },
+
+    {
+        "name": "Smashing Magazine",
+        "permalink": "http://www.smashingmagazine.com/",
+        "img": "https://pbs.twimg.com/profile_images/477218012194304000/ytI5hY2H_200x200.png",
+        "description": {
+            "en": "An online magazine for professional Web designers and developers.",
+            "he": "מגזין מקוון למעצבי אתרים מקצועיים וכן מפתחים.",
+            "es": "Un portal para desarrolladores y diseñadores web profesionales.",
+            "pt": "Uma revista online para Web designers e desenvolvedores profissionais.",
+            "de": "Ein Online-Magazin für professionelle Webdesigner und Entwickler.",
+            "fr": "Un magazine en ligne pour les développeurs et designers web professionnels.",
+            "pl": "Magazyn online dla profesjonalych web designerów i deweloperów.",
+            "du": "Een internettijdschrift voor professionele webdesigners en ontwikkelaars.",
+            "jp": "ウェブ・デザインやウェブ開発に携わるプロフェッショナル向けのオンライン・マガジン",
+            "zh": "An online magazine for professional Web designers and developers."
+        }
+    },
+
+    {
+        "name": "24 ways",
+        "permalink": "http://24ways.org/",
+        "img": "https://pbs.twimg.com/profile_images/378800000811026476/b9279ddece7a4e8c8aaa87ba6b27dc14_200x200.png",
+        "description": {
+            "en": "Geeks publish a daily dose of web design and development.",
+            "he": "מפתחים עם משקפים שמפרסמים מנה יומית של ידע על עיצוב ובניית אתרים",
+            "es": "Geeks publicando una dosis de diseño web y desarrollo web.",
+            "pt": "Geeks que publicam diariamente uma dose de desenvolvimento e web design.",
+            "de": "Geeks veröffentlichen eine tägliche Dosis Webdesign und Entwicklung.",
+            "fr": "Des Geeks publiant une dose quotidienne d'informations sur le design et le développement web.",
+            "pl": "Geeks publikują codzienną dawkę web designu i development.",
+            "du": "Geeks publiceren een dagelijkse dosis webdesign en ontwikkeling.",
+            "jp": "ギーク達が配信するウェブ・デザインやウェブ開発の話",
+            "zh": "Geeks publish a daily dose of web design and development."
+        }
+    },
+
+    {
+        "name": "A List Apart",
+        "permalink": "http://alistapart.com/",
+        "img": "https://pbs.twimg.com/profile_images/478913945475235840/Jv1mMBOA_200x200.jpeg",
+        "description": {
+            "en": "Design, development, and web content, focused on standards and best practices.",
+            "he": "עיצוב, פיתוח ותוכן באינטרנט, התמקדו בסטנדרטים ושיטות עבודה מומלצות.",
+            "es": "Diseño, desarrollo y contenido web, centrado en estándares y buenas prácticas.",
+            "pt": "Design, desenvolvimento, e conteúdo web, com foco em padrões e boas práticas.",
+            "de": "Design, Entwicklung und Web-Inhalte, mit Fokus auf Standards und beste Verfahren.",
+            "fr": "Design, développement et contenu web, centré sur les standards et les bonnes pratiques.",
+            "pl": "Design, development i web kontent, skupiający się na standartach i najlepszych praktykach.",
+            "du": "Designen, ontwikkelen en schrijven voor het web, gericht op standaarden en praktijkervaringen.",
+            "jp": "求められる基準やベスト・プラクティスに焦点をあてた、デザインや開発、ウェブ・コンテントの話",
+            "zh": "Design, development, and web content, focused on standards and best practices."
+        }
+    },
+
+    {
+        "name": "JSCentral",
+        "permalink": "http://jscentral.org/",
+        "img": "https://pbs.twimg.com/profile_images/1687185247/logo_medium_200x200.png",
+        "description": {
+            "en": "JavaScript news and links.",
+            "he": "מקור מעולה לפיתוח בגוואה סקריפט",
+            "es": "Novedades y links sobre JavaScript.",
+            "pt": "Notícias e links de JavaScript.",
+            "de": "JavaScript News und Links.",
+            "fr": "Des nouveautés et des liens à propos de JavaScript.",
+            "pl": "Nowości i linki JavaScript.",
+            "du": "JavaScript nieuws en links.",
+            "jp": "JavaScriptのニュースやリンク集",
+            "zh": "JavaScript news and links."
+        }
+    },
+
+    {
+        "name": "JSGoodies",
+        "permalink": "http://js.gd/",
+        "img": "https://pbs.twimg.com/profile_images/1259896749/jsgd_paul_200x200.png",
+        "description": {
+            "en": "Mainly web-focused; in particular, most are JS-focused.",
+            "he": "בעיקר ממוקד אינטרנט",
+            "es": "Principalmente centrado en la web, pero particularmente mucho centrado en JavaScript.",
+            "pt": "Principalmente com foco na web; em particular, mais em JS.",
+            "de": "Hauptsächlich Web-fokussiert; insbesondere JS-fokussiert.",
+            "fr": "Centré principalement sur le web et plus particulièrement sur le JavaScript.",
+            "pl": "Głównie skupiający się na web; w większości JavaScript.",
+            "du": "Grotendeels gericht op het web; in het bijzonder op JavaScript.",
+            "jp": "サイト所有者が選別した、JavaScriptに焦点を当てたウェブに関するリンク多数",
+            "zh": "Mainly web-focused; in particular, most are JS-focused."
+        }
+    },
+
+    {
+        "name": "SitePoint",
+        "permalink": "http://www.sitepoint.com/",
+        "img": "https://pbs.twimg.com/profile_images/616760854705410048/lpyh8qhU_200x200.jpg",
+        "description": {
+            "en": "An online media company providing cutting-edge content for web professionals.",
+            "he": "חברת מדיה באינטרנט לספק תוכן חדשני לאנשי מקצוע באינטרנט.",
+            "es": "Una compañia de internet que provee de contenido de vanguardia para profesionales de la web.",
+            "pt": "Uma empresa de mídia online que fornece conteúdo de ponta para profissionais da web.",
+            "de": "Eine Online Media Firma, die topaktuelle Inhalte für Web-Profis bietet.",
+            "fr": "Une société de communication en ligne fournissant du contenu sur les dernières techniques pour les professionnels du web.",
+            "pl": "Firma online dająca nowatorską treść dla profesjonalistów z dziedziny web.",
+            "du": "Een mediabedrijf dat de allernieuwste informatie biedt voor vakmensen op het web.",
+            "jp": "ウェブのプロフェッショナルに向けて、ウェブ・コンテントの最前線を追ったサイト",
+            "zh": "An online media company providing cutting-edge content for web professionals."
+        }
+    }
+]

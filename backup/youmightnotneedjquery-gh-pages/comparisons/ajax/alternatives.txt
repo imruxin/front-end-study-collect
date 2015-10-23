@@ -1,0 +1,3 @@
+reqwest: https://github.com/ded/Reqwest
+then-request: https://github.com/then/request
+superagent: https://github.com/visionmedia/superagent

@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Fronteers conference",
+        "permalink": "http://fronteers.nl/",
+        "img": "https://pbs.twimg.com/profile_images/196594034/fronteers-125x125_200x200.gif",
+        "description": {
+            "en": "Conference of the Dutch non-profit trade organisation for front-end developers.",
+            "es": "La organización comercial sin fines de lucro de desarrolladores de aplicaciones para usuario holandesess.",
+            "pt": "Conferência Holandesa da organização comercial sem fins lucrativos para desenvolvedores front-end.",
+            "de": "Konferenz der holländischen Non-Profit Handelsorganisation für Front-End Entwickler.",
+            "fr": "Conférence de l'organisation professionnelle hollandaise, à but non lucratif, pour les développeurs front-end.",
+            "pl": "Konferencja duńskiej organizacji non-profit dla front-end deweloperów.",
+            "du": "Conferentie georganiseerd door de Nederlandse vereniging van front-end ontwikkelaars.",
+            "jp": "オランダ非営利通商組合による、フロントエンド・ディベロッパー向けカンファレンス"
+        }
+    },
+
+    {
+        "name": "Front Trends",
+        "permalink": "http://front-trends.com/",
+        "img": "https://pbs.twimg.com/profile_images/508252352860532736/yfYw-MtV_200x200.png",
+        "description": {
+            "en": "A gathering where front-end lovers and tech entrepreneurs discover the latest trends.",
+            "es": "Una reunión donde los amantes del front-end y emprendedores, descubre las últimas tendencias.",
+            "pt": "Um encontro onde os amantes de front-end e empresários de tecnologia descobrem as últimas tendências.",
+            "de": "Ein Treffen bei dem Front-End Liebhaber und Tech-Unternehmer die neuesten Trends entdecken.",
+            "fr": "Un lieu de rassemblement où les fans du front-end et les entrepreneurs du high-tech peuvent découvrir les dernières tendances.",
+            "pl": "Zrzeszenie gdzie front-end deweloperzy i tech przedsiębiorcy odkrywają najnowsze trendy.",
+            "du": "Een bijeenkomst waar liefhebbers van front-end en technische ondernemers de laatste trends ontdekken.",
+            "jp": "フロントエンド・ディベロッパーと技術志向の起業家が一堂に会して、最新のトレンドを追っていくミートアップ",
+            "zh": "A gathering where front-end lovers and tech entrepreneurs discover the latest trends."
+        }
+    },
+
+    {
+        "name": "HTML5DevConf",
+        "permalink": "http://html5devconf.com/",
+        "img": "https://pbs.twimg.com/profile_images/486237874912628736/ddsp2Mut_200x200.png",
+        "description": {
+            "en": "Has become the largest JavaScript and HTML5 developers conference in the world.",
+            "es": "Se ha convertido en la conferencias más grande del mundo de desarrolladores JavaScript.",
+            "pt": "Se tornou a maior conferência de desenvolvedores Javascript e HTML5 do mundo.",
+            "de": "Mittlerweile die größte JavaScript- und HTML5-Konferenz der Welt.",
+            "fr": "Est devenu la plus grosse conférence de développeurs JavaScript et HTML5 dans le monde.",
+            "pl": "HTML5DevConf został największą światową konferencją dotyczącą JavaScript i HTML5.",
+            "du": "Is uitgegroeid tot de grootste JavaScript and HTML5 conferentie voor ontwikkelaars ter wereld.",
+            "jp": "JavaScriptやHTML5のディベロッパー向けとして今や世界最大級にまで成長したカンファレンス",
+            "zh": "Has become the largest JavaScript and HTML5 developers conference in the world."
+        }
+    },
+
+    {
+        "name": "Fluent Conf JavaScript & Beyond",
+        "permalink": "http://fluentconf.com/",
+        "img": "https://pbs.twimg.com/profile_images/447094625912619008/SqRErcjo_200x200.png",
+        "description": {
+            "en": "Featuring the best in JavaScript and progressive Web development.",
+            "es": "Destacando lo mejor de JavaScript y el desarrollo web progresivo.",
+            "pt": "Com o melhor em Javascript e desenvolvimento web progressivo.",
+            "de": "Das Beste aus JavaScript und Progressive Web Development.",
+            "fr": "Démonstration de ce qui se fait de mieux dans le JavaScript et le développement web progressif.",
+            "pl": "Przedstawia najlepsze w dziedzinie JavaScript i progresywnym web development.",
+            "du": "Bevat het beste in JavaScript and progressieve webontwikkeling.",
+            "jp": "JavaScriptやプログレッシブなウェブ開発の世界で最高峰の人たちを集めるカンファレンス",
+            "zh": "Featuring the best in JavaScript and progressive Web development."
+        }
+    },
+
+    {
+
+        "name": "Front End Ops Conf",
+        "permalink": "http://www.feopsconf.com/",
+        "img": "https://pbs.twimg.com/profile_images/429436724918251520/QVTjte-t_200x200.png",
+        "description": {
+            "en": "A 2-day conference in San Francisco dedicated to the emerging discipline of front end operations.",
+            "es": "Una conferencia de 2 días en San Francisco dedicada a la disciplina emergente de las operaciones de front-end.",
+            "pt": "A conferência de dois dias em San Francisco dedicada à disciplina emergente das operações de front-end.",
+            "de": "Ein 2-Tages-Konferenz in San Francisco zu den aufstrebenden Disziplin der Front-End-Operationen gewidmet.",
+            "fr": "Une conférence de 2 jours à San Francisco dédié à la nouvelle discipline des «front-end ops»",
+            "pl": "2-dniowa konferencja w San Francisco poświęcona powstającej dyscypliny operacji Zaczepy.",
+            "du": "Een 2-daagse conferentie in San Francisco dat zich toelegt op de opkomende discipline van de front-end activiteiten.",
+            "jp": "二日間に渡りサンフランシスコにて行われ、フロントエンド・オペレーションの最先端が話し合われるカンファレンス",
+            "zh": "A 2-day conference in San Francisco dedicated to the emerging discipline of front end operations."
+        }
+    },
+
+    {
+        "name": "ColdFront",
+        "permalink": "http://coldfrontconf.com/",
+        "img": "https://pbs.twimg.com/profile_images/463385836340269056/wspCZk1e_200x200.png",
+        "description": {
+            "en": "ColdFront is a one-day front-end conference in Copenhagen.",
+            "es": "Coldfront es una conferencia de front-end de un día en Copenhague.",
+            "pt": "ColdFront é uma conferência de front-end de um dia em Copenhague.",
+            "de": "Coldfront ist ein Ein-Tages-Front-End-Konferenz in Kopenhagen.",
+            "fr": "ColdFront est une conférence front-end d'une journée à Copenhague.",
+            "pl": "ColdFront jest jednodniowa czołowy konferencja w Kopenhadze.",
+            "du": "Coldfront is een eendaagse front-end in Kopenhagen.",
+            "jp": "コペンハーゲンにて開催される、一日限りのフロントエンド・カンファレンス",
+            "zh": "ColdFront is a one-day front-end conference in Copenhagen."
+        }
+    }
+]

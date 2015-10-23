@@ -1,0 +1,23 @@
+- var title = contents['title.md'].metadata;
+- var path = (locals.lang === 'en') ? 'src' : '../src';
+- var swPath = (locals.lang === 'en') ? '' : '..';
+- var langDir = (locals.lang === 'he') ? 'rtl' : 'ltr';
+
+doctype html
+html(lang='#{locals.lang}', dir='#{langDir}')
+    include head
+
+    body
+        include header
+        include languages
+        include summary
+        include navigation
+        include cool-people
+        include best-sources
+        include attend-conferences
+        include your-own-sources
+        include who-we-are
+        include thank-you
+        include footer
+        include social-plugins
+        include scripts
