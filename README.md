@@ -119,4 +119,4 @@
 - [Straightline](http://bm.straightline.jp/)
 
 
-**[点击查看部分参考资源备份（截至于20151023）](/backup)**
+**[点击查看部分参考资源备份（截至于20151023）](backup)**
