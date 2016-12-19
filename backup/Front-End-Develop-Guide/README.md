@@ -2,19 +2,11 @@
 
 创建此项目灵感从[SwiftGuide](https://github.com/ipader/SwiftGuide)而来，这份指南汇集了前端开发所使用语言的主流学习资源，并以开发者的视角进行整理编排而成。
 
-GitHub：[w3crange/Front-End-Develop-Guide](https://github.com/w3crange/Front-End-Develop-Guide) ｜ 网站：[http://w3crange.github.io](http://w3crange.github.io) ｜ _欢迎开发者一起[维护](https://github.com/w3crange/Front-End-Develop-Guide/pulls)，或[反馈/投稿](https://github.com/w3crange/Front-End-Develop-Guide/issues/new)_
+GitHub：[mulgore/Front-End-Develop-Guide](https://github.com/mulgore/Front-End-Develop-Guide) ｜欢迎开发者一起[维护](https://github.com/mulgore/Front-End-Develop-Guide/pulls)，或[反馈/投稿](https://github.com/mulgore/Front-End-Develop-Guide/issues/new)_
 
-> 想了解关于该指南及 前端开发 更多信息的同学，可以阅读短文《[致 Front-End Developers](https://github.com/w3crange/Front-End-Develop-Guide/blob/master/2015letter.md)》。 想查看优秀的开源项目，可以访问[《Front-End Develop 项目精选》](https://github.com/w3crange/Front-End-Develop-Guide/blob/master/Featured.md)。希望查看精选文章，可以访问[《Front-End Develop 文章精选》](https://github.com/w3crange/Front-End-Develop-Guide/blob/master/Featured-Articles.md)。也欢迎企业在湖南招聘人才提供工作岗位(請附上薪資)，可以提交到[工作岗位](https://github.com/w3crange/Front-End-Develop-Guide/issues/3)。
+> 想了解关于该指南及 前端开发 更多信息的同学，可以阅读短文《[致 Front-End Developers](https://github.com/mulgore/Front-End-Develop-Guide/blob/master/2015letter.md)》。 想查看优秀的开源项目，可以访问[《Front-End Develop 项目精选》](https://github.com/mulgore/Front-End-Develop-Guide/blob/master/Featured.md)。希望查看精选文章，可以访问[《Front-End Develop 文章精选》](https://github.com/mulgore/Front-End-Develop-Guide/blob/master/Featured-Articles.md)。也欢迎企业招聘人才提供工作岗位(請附上薪資)，可以提交到[工作岗位](https://github.com/mulgore/Front-End-Develop-Guide/issues/3)。
 
-由[@icepy](http://weibo.com/2455876310)负责整理
-
-欢迎大家加入**一起来学JS（HN）QQ群：347349470**，加入后还请修改备注为，所在地-昵称。
-
-主要讨论：前端范围内的技术，HTML CSS JavaScript使用技巧，浏览器开发工具使用讨论，iOS Android等Mobile App使用的技术，一起来学习，共同进步。
-
-让web前端，JS开发在湖南可以成为大家热爱的工作与成熟的产业。
-
-**Front-End Developers Hunan**
+由[@icepy](http://weibo.com/2455876310)负责整理，欢迎大家加入《前端Talk读者交流群》添加 **icepy_1988** 为好友后会邀请你加入。
 
 **由于个人精力有限，不足之处还望大家多多包容与提供建议。**
 
@@ -30,6 +22,7 @@ GitHub：[w3crange/Front-End-Develop-Guide](https://github.com/w3crange/Front-En
 			* [CSS Style Guide](#css_style_guide)
 			* [CSS Language](#css_language)
 			* [Sass Guide](#sass_guide)
+			* [PostCss](#postcss_guide)
 		* [JavaScript 文档](#javascript_doc)
 			* [JavaScript Style Guide](#javascript_style_guide)
 			* [JavaScript Language](#javascript_language)
@@ -40,12 +33,16 @@ GitHub：[w3crange/Front-End-Develop-Guide](https://github.com/w3crange/Front-En
 		* [HTTP 文档](#fed_http)
 		* [缓存策略](#fed_cache)
 		* [前端自动化工具](#fed_automate_kit)
+		* [React&React Native生态-探索学习](#fed_point_recommend)
+		* [移动前端技术](#fed_mobile_jishu)
+		* [移动web UI框架](#fed_mobile_lib)
+		* [动画](#fed_animation)
+		* [性能调优](#fed_xingneng_tiaoyou)
 	* [Front-End Develop 项目与工具](#fed_project_kit)
 		* [相关工具](#fed_kit)
 		* [Front-End Develop 开源项目](#fed_opensource)
 	* [Front-End Questions](#fed_questions)
 	* [Front-End 需要了解的数据结构与算法](#fed_datastructure)
-	* [Front-End Develop 优秀文章](#fed_article)
 * [延伸可扩展的方向](#fed_scalable)
 	* [Node.js](#fed_nodejs)
 	* [Mongodb](#fed_mongodb)
@@ -54,9 +51,8 @@ GitHub：[w3crange/Front-End-Develop-Guide](https://github.com/w3crange/Front-En
 	* [桌面应用程序开发](#fed_PCAPP)
 	* [移动应用程序开发](#fed_mobile)
 	* [V8 引擎文献](#fed_v8)
-* [Front-End Developer Blog](#fed_blog)
-* [通用Developer 社区](#fed_community)
-* [技术分享会议](#fed_jishu_share)
+* [社区](#fed_community)
+* [码农周刊JavaScript和前端部分优秀文章集合](#fed_article)
 
 # <a id="fed_doc"></a> Front-End Develop 文档
 
@@ -106,7 +102,11 @@ web前端开发可能包括HTML,CSS,JavaScript,Web API,SVG,WebGL,MathML等，语
 * [Sass基础知识](http://sass-lang.com/guide)：Sass官网，讲述Sass/SCSS应用的基础知识，变量、函数、条件、循环、宏等等；
 * [Sass中文网](http://www.sasschina.com/)：中文大，给E文不好的小朋友们；
 * [Sass Guidelines](http://sass-guidelin.es/zh/)：这是由Sass专家[Hugo Giraudel](http://hugogiraudel.com/)撰写的一份“编写稳健、可维护和可扩展的Sass”的指南，这份指南已被翻译成中文；
-* [Sass meister](http://sassmeister.com/)：在线Sass/SCSS调试器；
+* [Sass meister](http://www.sassmeister.com/)：在线Sass/SCSS调试器；
+
+#### <a id="postcss_guide"></a> PostCss
+
+* [Post Css](https://github.com/postcss/postcss)
 
 ### <a id="javascript_doc"></a> JavaScript 文档
 ===
@@ -142,7 +142,6 @@ web前端开发可能包括HTML,CSS,JavaScript,Web API,SVG,WebGL,MathML等，语
 ### <a id="fed_library"></a>了解常用库与框架的使用文档
 
 * jQuery
-	* [jQuery 解构](http://www.cn-cuckoo.com/deconstructed/jquery.html)
 	* [简单易懂的JQuery魔法](http://www.nowamagic.net/librarys/books/contents/jquery)
 	* [How to write jQuery plugin](http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html)
 * underscore.js
@@ -157,14 +156,15 @@ web前端开发可能包括HTML,CSS,JavaScript,Web API,SVG,WebGL,MathML等，语
     * [AngularJS入门教程](https://github.com/zensh/AngularjsTutorial_cn)
     * [构建自己的AngularJS](https://github.com/xufei/Make-Your-Own-AngularJS/blob/master/01.md)
     * [在Windows环境下用Yeoman构建AngularJS项目](http://www.waylau.com/build-angularjs-app-with-yeoman-in-windows/)
+    * [大型应用下的 AngularJS 性能](http://web.jobbole.com/82060/)
+    * [Angular Modules](http://ngmodules.org/)  可以搜索Angular.JS可用的各种插件，模块等等。
+    * [AngularJS性能优化心得](https://github.com/atian25/blog/issues/5)
 * Zepto.js
-    * [Zepto.js 中文文档](http://mweb.baidu.com/zeptoapi/)
+    * [Zepto.js](http://zeptojs.com/)
+* JSLite
+    * [JSLite.io](http://JSLite.io/)
 * Sea.js
     * [Hello Sea.js](http://island205.github.io/HelloSea.js/)
-* React.js
-    * [React.js 中文文档](http://reactjs.cn/)
-    * [React webpack-cookbook](https://github.com/fakefish/react-webpack-cookbook)
-    * [React Native](http://wiki.jikexueyuan.com/project/react-native/)
 * impress.js
     * [impress.js的中文教程](https://github.com/kokdemo/impress.js-tutorial-in-Chinese)
 * CoffeeScript
@@ -177,8 +177,11 @@ web前端开发可能包括HTML,CSS,JavaScript,Web API,SVG,WebGL,MathML等，语
     * [Discover Meteor](http://zh.discovermeteor.com/)
 * TypeScript
 	* [TypeScript 指南](https://github.com/vilic/typescript-guide)
+	* [TypeScript手册翻译系列](http://my.oschina.net/1pei/blog/515680?fromerr=O3Jow9bO)
 * requirejs
 	* [RequireJS 中文网](http://requirejs.cn/)
+* vue.js
+	* [vue 官方网站](http://cn.vuejs.org/)
 
 
 ### <a id="javascript_log"></a> JavaScript 日志
@@ -194,7 +197,7 @@ web前端开发可能包括HTML,CSS,JavaScript,Web API,SVG,WebGL,MathML等，语
 下面两篇文章不会对 HTTP 的细节进行深究，而是从够高和更结构化的角度将 HTTP 协议的元素进行分类讲解，可以先阅读[HTTP 协议漫谈](http://blog.jobbole.com/88199/)和[图解Http协议](http://www.bysocket.com/?p=282)来对HTTP有一个大概的了解。
 
 * [HTTP协议](http://www.cnblogs.com/TankXiao/category/415412.html)
-* [HTTP/2协议的背景、内容、实现和未来](http://ye11ow.gitbooks.io/http2-explained/content/)
+* [HTTP/2协议的背景、内容、实现和未来](https://ye11ow.gitbooks.io/http2-explained/content/)
 * [HTTP 下午茶](http://happypeter.github.io/tealeaf-http/#chinese)
 * [HTTP接口设计指南](https://github.com/bolasblack/http-api-guide)
 * [白话 HTTPS & SSL/TSL](http://www.jianshu.com/p/992bad24412e)：你肯定能阅读明白。
@@ -214,6 +217,35 @@ cache是提高应用性能重要的一个环节，必需要有所了解。
 * [Grunt JavaScript世界的构建工具](http://www.gruntjs.net/)
 * [Gulp 用自动化构建工具增强你的工作流](http://www.gulpjs.com.cn/)
 * [Webpack](https://github.com/webpack/webpack)
+
+### <a id="fed_point_recommend"></a> React&React Native生态-探索学习
+
+* [React&React Native生态-探索学习](https://github.com/mulgore/Front-End-Develop-Guide/blob/master/react/React.md)
+
+### <a id="fed_mobile_jishu"></a> 移动前端技术
+
+* [移动端尺寸基础知识](http://colachan.com/post/3435)
+* [移动端高清、多屏适配方案](http://www.html-js.com/article/Mobile-terminal-H5-mobile-terminal-HD-multi-screen-adaptation-scheme%203041)
+* [移动端开发小记 - Flexbox](http://taobaofed.org/blog/2015/11/11/flexbox-in-mobile-web/)
+
+### <a id="fed_mobile_lib"></a> 移动web UI框架
+* [微信的We UI](https://github.com/weui/weui)
+* [淘宝的SUI](http://m.sui.taobao.org/)
+* [百度的GMU](http://gmu.baidu.com/)
+* [豆瓣的CardKit](https://github.com/dexteryy/CardKit)
+
+### <a id="fed_animation"></a> 动画
+
+* [搞定这些疑难杂症，向css3动画说yes](http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=400429327&idx=1&sn=e535eac5d3c74e2fb1633d3e8cc0e0ed&scene=4#wechat_redirect)
+
+### <a id="fed_xingneng_tiaoyou"></a> 性能调优
+
+* [web移动端性能调优及16ms优化](http://www.ghugo.com/gone-in-60-frames-per-second/)
+* [无线性能优化：域名收敛](http://taobaofed.org/blog/2015/12/16/h5-performance-optimization-and-domain-convergence/)
+* [缓存机制浅析 移动端 Web 加载性能优化](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=402077566&idx=1&sn=def3337205c3aec5e0fde2476ee03397&scene=0&key=ac89cba618d2d976159e30761eefe9953dc2030a7d72c1872c445a8caaa0f1d3cc4eb416a1c7cfb82651db48d11f3f90&ascene=0&uin=MjAyNzY1NTU%3D)
+* [移动端网络优化－同样适用于HTML5页面](http://www.trinea.cn/android/mobile-performance-optimization/)
+* [移动H5前端性能优化指南](http://isux.tencent.com/h5-performance.html)
+* [权威的前端性能指南](https://browserdiet.com/zh/)
 
 ## <a id="fed_project_kit"></a> Front-End Develop 项目与工具
 
@@ -239,6 +271,10 @@ Sublime Text常用的插件：
 * [ColorPicker](https://packagecontrol.io/packages/ColorPicker)：快速选取颜色
 * [HTML-CSS-JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify)：html/css/js 格式化
 * [Alignment](https://packagecontrol.io/packages/Alignment)：用于代码对齐;
+* [WakaTime](https://packagecontrol.io/packages/WakaTime)：用于记录编程时间；
+* [Seti_UI](https://packagecontrol.io/packages/Seti_UI)：好看的主题，包括文件icon；
+* [OmniMarkupPreviewer](https://packagecontrol.io/packages/OmniMarkupPreviewer)：将MD文件渲染成网页，可以在浏览器中查看；
+* [Babel](https://packagecontrol.io/packages/Babel)：ES6语法高亮；
 
 Atom常用的插件：
 
@@ -311,9 +347,10 @@ vim常用的插件：
 * [iTerm 2](http://www.iterm2.com/index.html)：OS X上一个增强版的shell终端；
 * [oh-my-zsh](http://ohmyz.sh/)：OS X上用来增强shell命令行的工具；
 * [Dash](https://kapeli.com/dash)：Dash is an API Documentation Browser and Code Snippet Manager. Dash stores snippets of code and instantly searches offline documentation sets for 150+ APIs (for a full list, see below). You can even generate your own docsets or request docsets to be included；
-* [tmux](http://aquaregia.gitbooks.io/tmux-productive-mouse-free-development_zh/content/index.html)：终端复用神器，帮助在Mac或者Linux上做开发的程序员在使用终端时更加得心应手；
+* [tmux](https://aquaregia.gitbooks.io/tmux-productive-mouse-free-development_zh/content/index.html)：终端复用神器，帮助在Mac或者Linux上做开发的程序员在使用终端时更加得心应手；
 * [MacVim](https://github.com/b4winckler/macvim)：Mac下GUI vim编辑器；
 * [Xcode](https://developer.apple.com/xcode/downloads/)：也许你用不上，安装Xcode主要是为了Xcode command line tools工具包，你也可以选择不安装Xcode，使用xcode-select --install跳过Xcode的安装；
+* [Postman](http://chromecj.com/web-development/2014-09/60.html) Postman是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。
 
 ####4. VPN
 
@@ -340,76 +377,51 @@ vim常用的插件：
 * [gulp-useref](https://www.npmjs.com/package/gulp-useref)：引入使用build标记，进行替换;
 * [gulp-rev](https://www.npmjs.com/package/gulp-rev)：生成md5文件名;
 * [gulp-filter](https://www.npmjs.com/package/gulp-filter)：对文件进行过滤;
+* [gulp-header](https://www.npmjs.com/package/gulp-header/)：压缩之后将注释写入到文件的头部
+* [gulp-if](https://www.npmjs.com/package/gulp-if)：进行逻辑判断
+* [gulp-size](https://www.npmjs.com/package/gulp-size)：获取文件大小
+* [gulp-less](https://www.npmjs.com/package/gulp-less)：编译less文件
+* [gulp-sass](https://www.npmjs.com/package/gulp-sass)：编译sass文件
+* [gulp-file-include](https://www.npmjs.com/package/gulp-file-include)：对文件进行引入
+* [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps)：生成map文件
+* [gulp-livereload](https://www.npmjs.com/package/gulp-livereload)：自动刷新
+
+####7.webpack
+
+* [raw-loader](https://www.npmjs.com/package/raw-loader)：将文件require进来；
+* [url-loader](https://www.npmjs.com/package/url-loader)：可以将图片require进来；
+* [css-loader](https://www.npmjs.com/package/css-loader)：require css文件；
+* [eslint-loader](https://www.npmjs.com/package/eslint-loader)：语法检查；
+* [less-loader](https://www.npmjs.com/package/less-loader)：less loader；
+* [extract text plugin for webpack](https://www.npmjs.com/package/extract-text-webpack-plugin)：CSS文件提取；
+
+####8.服务
+
+* [Travis-CI](https://travis-ci.org/)
+* [Coveralls](https://coveralls.io/)
+* [Slack](https://slack.com/)
+* [js bin](http://jsbin.com/?html,output)
+* [zenHub](https://github.com/ZenHubIO)
+* [trello](https://trello.com/)
+
 
 ### <a id="fed_opensource"></a> Front-End Develop 开源项目
+
+想查看优秀的开源项目，可以访问[《Front-End Develop 项目精选》](https://github.com/mulgore/Front-End-Develop-Guide/blob/master/Featured.md)。
 
 ####1. 有趣味的开源项目
 
 * [Web Developer技能树](https://github.com/phodal/skilltree)：类似《魔兽世界》中的天赋树；
 * [octotree](https://github.com/buunguyen/octotree)：浏览器扩展(Chrome,Firefox,Safari和Opera)显示GitHub树格式的代码；
-* [react-native](https://github.com/facebook/react-native)：出品的一个可以使用JavaScript来构建Native UI的库；
-* [ionic](https://github.com/driftyco/ionic)：Ionic是一个强大的HTML5 原生应用（native app） 开发框架，帮助你用HTMLL，css和javascript构建具有原生味道的移动应用（mobile apps）；
 * [passport-bnet](https://github.com/Blizzard/passport-bnet)：暴雪提供的Nodejs版SDK
 * [hexo](https://github.com/hexojs/hexo)：编写博客使用的工具
 * [traceur-compiler](https://github.com/google/traceur-compiler)：可以运行未来的JavaScript的JavaScript；
 * [EpicEditor](https://github.com/OscarGodson/EpicEditor)：可以嵌入网页的Markdown编辑器；
 * [gitbook](https://github.com/GitbookIO/gitbook)：用于生成在线书籍的工具；
 * [kityminder](https://github.com/fex-team/kityminder)：作为一款在线的脑图编辑工具，它有着不亚于 native 脑图工具的交互体验；
+* [api-wow-docs](https://github.com/Blizzard/api-wow-docs)：暴雪提供的魔兽世界API文
 
-####2. 开源库
-
-* [three.js](https://github.com/mrdoob/three.js)：three.js是JavaScript编写的WebGL第三方库。提供了非常多的3D显示功能。Three.js 是一款运行在浏览器中的 3D 引擎，你可以用它创建各种三维场景，包括了摄影机、光影、材质等各种对象；
-* [fullPage.js](https://github.com/alvarotrigo/fullPage.js)：fullPage.js 是一个基于 jQuery 的插件，它能够很方便、很轻松的制作出全屏网站；
-* [angular-ui-router](https://github.com/angular-ui/ui-router)：angular-ui-router是AngularJS的路由框架，和默认的$route不同，它将所有路由包装成可划分层级的状态机状态,路由路径在ui-router中不是必须的。由于ui-router的路由状态机是分层级的，所以使用ui-router可以非常方便地创建包含多个嵌入的子模板；
-* [marked](https://github.com/chjj/marked)：markdown解析器；
-* [tsd](https://github.com/DefinitelyTyped/tsd)：在TypeScript中替换第三方库所使用的引用文件；
-* [react](https://github.com/facebook/react)：可以用一种声明性、高效和灵活的JavaScript来构建用户界面的框架；
-* [hammer.js](https://github.com/hammerjs/hammer.js)：处理触摸事件，以及手势的JavaScript库；
-* [resumable.js](https://github.com/23/resumable.js)：这是用于HMLT5 File Api封装可以方便操作文件的一个库；
-* [commander.js](https://github.com/tj/commander.js)：可以帮助快速开发Nodejs命令行工具的一个包；
-* [persistencejs](https://github.com/coresmart/persistencejs)：是一个异步的Javascript库的对象关系映射框架；
-* [artTemplate](https://github.com/aui/artTemplate)： JavaScript模板引擎；
-* [TypeScript](https://github.com/Microsoft/TypeScript)：JavaScript的超集，扩展了类型，类，接口等语法，兼容ES6；
-* [fastclick](https://github.com/ftlabs/fastclick)：FastClick是一个简单的、易于使用的库，消除在移动浏览器上触发click事件与一个物理Tap(敲击)之间的300延迟；
-* [node-browserify](https://github.com/substack/node-browserify)：Browserify是一个node.js模块，主要用于改写现有的CommonJS模块，使得浏览器端也可以使用这些模块；
-* [socket.io](https://github.com/socketio/socket.io)：Socket.io是使用得非常普遍的前端调用Websocket的库；
-* [superagent](https://github.com/visionmedia/superagent)：superagent 是nodejs里一个非常方便的客户端请求代理模块；
-* [cheerio](https://github.com/cheeriojs/cheerio)：它可以从一坨html的片断中构建DOM结构，然后提供像jquery一样的css选择器查询；
-* [express](https://github.com/strongloop/express)：它用于构建Web网站，非常快速；
-* [node-mongodb-native](https://github.com/mongodb/node-mongodb-native)：nodejs用于操作mongodb；
-* [ejs](https://github.com/tj/ejs)：JavaScript模板引擎；
-* [riot](https://github.com/riot/riot)：一个小巧的UI和代码结构的框架；
-* [JavaScript-MD5](https://github.com/blueimp/JavaScript-MD5)：JS版的MD5;
-* [zepto](https://github.com/madrobby/zepto)：在浏览器(Safari、Chrome和Firefox)上开发页面应用或者构建基于html的web-view本地应用，如PhoneGap，使用Zepto是一个不错的选择；
-* [async](https://github.com/caolan/async)：JS实现的一个方便快捷异步编程的库；
-* [echarts](https://github.com/ecomfe/echarts)：基于Canvas，纯Javascript图表库，提供直观，生动，可交互，可个性化定制的数据可视化图表。创新的拖拽重计算、数据视图、值域漫游等特性大大增强了用户体验，赋予了用户对数据进行挖掘、整合的能力；
-* [koa](https://github.com/koajs/koa)：下一代编写Web网站的nodejs框架；
-* [vue](https://github.com/yyx990803/vue)：MVVM框架；
-* [underscore](https://github.com/jashkenas/underscore)：JavaScript函数工具库；
-* [backbone](https://github.com/jashkenas/backbone)：Backbone.js为复杂WEB应用程序提供模型(models)、集合(collections)、视图(views)的结构。其中模型用于绑定键值数据和自定义事件；集合附有可枚举函数的丰富API； 视图可以声明事件处理函数，并通过RESRful JSON接口连接到应用程序。
-* [jquery](https://github.com/jquery/jquery)：jQuery 是一个高效、精简并且功能丰富的JavaScript 工具库；
-* [angular.js](https://github.com/angular/angular.js)：AngularJS是为了克服HTML在构建应用上的不足而设计的，通过为开发者呈现一个更高层次的抽象来简化应用的开发。如同其他的抽象技术一样，这也会损失一部分灵活性。换句话说，并不是所有的应用都适合用AngularJS来做。AngularJS主要考虑的是构建CRUD应用。幸运的是，至少90%的WEB应用都是CRUD应用。但是要了解什么适合用AngularJS构建，就得了解什么不适合用AngularJS构建。
-* [Flow](https://github.com/facebook/flow)：Facebook出品的一个JavaScript静态编译器；
-* [avalon](https://github.com/RubyLouvre/avalon)：用于构建Web界面的MVVM JavaScript框架；
-* [requirejs](https://github.com/jrburke/requirejs)：JavaScript模块化的开山鼻祖；
-* [seajs](https://github.com/seajs/seajs)：中国开发者编写的一个JavaScript模块化库；
-* [d3](https://github.com/mbostock/d3)：基于JavaScript编写的一个图表库，非常强大。
-* [sugar.js](http://sugarjs.com/)：它扩展了现有的JS对象的方法，让你可以用更少的代码做更多的事情；
-* [lo_dash](https://lodash.com/)：JavaScript函数工具库；
-
-####3. 开放平台
-
-* [wx](https://github.com/baoshan/wx)：wx是极简设计的微信（公共平台）应用参考级框架，而并非微信接口在node.js下的幂等映射；
-* [api-wow-docs](https://github.com/Blizzard/api-wow-docs)：暴雪提供的魔兽世界API文档
-
-####4. 开源web网站系统
-
-* [candy](https://github.com/turingou/candy)：基于多说社交评论的社会化论坛系统，采用 Node.js/Mongodb 构建；
-
-####5. 调试工具
-
-* [node-inspector](https://github.com/node-inspector/node-inspector)：nodejs的调试工具；
-* [node-supervisor](https://github.com/petruisfan/node-supervisor)：nodejs用于无需重启的工具
+其他工具：[http://123.jser.us/](http://123.jser.us/)
 
 ## <a id="fed_questions"></a>Front-End Questions
 
@@ -417,6 +429,7 @@ vim常用的插件：
 * [中文前端开发面试题](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions) 中文前端开发面试题
 * [Mars - mobile needs a hero](https://github.com/AlloyTeam/Mars)：腾讯出品的移动端实践；
 * [mobileTech](https://github.com/jtyjty99999/mobileTech)：收集了移动端出现的问题以及解决思路与技巧；
+* [移动web资源整理](http://www.cnblogs.com/PeunZhang/p/3407453.html)：移动web资源整理；
 
 ## <a id="fed_datastructure"></a> Front-End 需要了解的数据结构与算法
 
@@ -426,27 +439,40 @@ vim常用的插件：
 * [那些少人所知而又有用的数据结构（StackOverflow）](http://stackoverflow.com/questions/500607/what-are-the-lesser-known-but-useful-data-structures)
 * [高级数据结构大全](http://isa.unomaha.edu/wp-content/uploads/2012/08/Advanced-Data-structures.pdf)
 
-## <a id="fed_article"></a> Front-End Develop 优秀文章集合
-
-* [从码农周刊抓取的Front-End Develop 优秀文章集合](https://github.com/w3crange/Front-End-Develop-Guide/blob/master/Articles.md)
-
-# <a id="fed_scalable"></a> 延伸可扩展的方向
+## <a id="fed_scalable"></a> 延伸可扩展的方向（全栈）
 
 延伸可扩展的方向是指，脱离了浏览器环境的编程。
 
+关于编译，强烈建议阅读[工程中的编译原理--Jison入门篇](http://icodeit.org/2015/09/write-a-parser/)
+
+如果你想发展为全栈，强烈建议阅读[Growth: 全栈增长工程师指南](https://github.com/phodal/growth-ebook)
+
 #### <a id="fed_nodejs"></a> Node.js
+
+**入门**
 
 * [Node入门](http://www.nodebeginner.org/index-zh-cn.html)
 * [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/)
-* [Nodejs Wiki Book](https://github.com/nodejs-tw/nodejs-wiki-book) (繁体中文)
-* [express.js 中文文档](http://expressjs.jser.us/)
-* [koa 中文文档](https://github.com/turingou/koa-guide)
-* [使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)
-* [Express框架](http://javascript.ruanyifeng.com/nodejs/express.html)
+* [Nodejs Wiki Book](https://github.com/nodejs-tw/nodejs-wiki-book)
 * [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
-* [Learn You The Node.js For Much Win! (中文版)](https://www.npmjs.org/package/learnyounode-zh-cn)
-* [Node debug 三法三例](http://i5ting.github.io/node-debug-tutorial/)
+
+**文档**
+
 * [nodejs中文文档](https://www.gitbook.com/book/0532/nodejs/details)
+* [express.js 中文文档](http://expressjs.jser.us/)
+* [koa 中文文档](https://github.com/guo-yu/koa-guide)
+* [express框架](http://javascript.ruanyifeng.com/nodejs/express.html)
+
+**阅读**
+
+* [使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)
+* [Learn You The Node.js For Much Win! (中文版)](https://www.npmjs.com/package/learnyounode-zh-cn)
+* [Node debug 三法三例](http://i5ting.github.io/node-debug-tutorial/)
+* [深入浅出Nodejs读书笔记](http://tw93.github.io/2015-03-01/shen-ru-qian-chu-nodejs-reading-mind-map.html)
+* [NodeJS的代码调试和性能调优](http://www.barretlee.com/blog/2015/10/07/debug-nodejs-in-command-line/)
+* [在 Node.js 应用中集成 Redis](http://www.ibm.com/developerworks/cn/opensource/os-cn-nodejs-redis/index.html)
+* [Node.js 应用程序的 5 条性能建议](http://zhuanlan.zhihu.com/FrontendMagazine/20432208)
+* [国内Nodejs 2015汇总](https://cnodejs.org/topic/5696e43e6272216e51bff67e)
 
 #### <a id="fed_mongodb"></a>Mongodb
 
@@ -461,6 +487,7 @@ vim常用的插件：
 * [使用node-webkit构建桌面应用程序（一）](http://www.infoq.com/cn/articles/using-node-webkit-to-build-desktop-applications-part1)
 * [使用node-webkit构建桌面应用程序（二）](http://www.infoq.com/cn/articles/using-node-webkit-to-build-desktop-applications-part2)
 * [youdao出品的HEX](http://hex.youdao.com/zh-cn/tutorial/index.html)
+* [electron](http://electron.atom.io/)
 
 #### <a id="fed_mobile"></a>移动应用程序开发
 
@@ -476,101 +503,14 @@ vim常用的插件：
 可以先通过阅读[V8引擎简介](http://impd.tencent.com/?p=35)来了解JavaScript现在最好的引擎是怎样的，然后访问[Chrome V8](https://developers.google.com/v8/)来获取最新的资料，API文档可以访问[v8-docs](http://izs.me/v8-docs/)。
 
 * [V8 Javascript 引擎设计理念](http://blog.pluskid.org/?p=186)
-* [JavaScript引擎的性能优化](http://velocity.oreilly.com.cn/2013/index.php?func=session&id=27)
+* [JavaScript引擎的性能优化](http://velocity.oreilly.com.cn/2015//2013/index.php?func=session&id=27)
 * [V8引擎中的hidden class](https://github.com/BE-FE/Blog/blob/master/blogs/V8%E5%BC%95%E6%93%8E%E4%B8%AD%E7%9A%84hidden%20class.md)
+* [JavaScript V8 性能小贴士](http://justjavac.com/javascript/2015/12/14/performance-tips-for-javascript-in-v8.html)
 
-## <a id="fed_blog"></a> Front-End Developer Blog
+## <a id="fed_community"></a> 社区
 
-中文 Front-End 开发博客列表，本博客列表会长期维护，如果有推荐的博客，请到此处[提交博客信息](https://github.com/w3crange/Front-End-Develop-Guide/issues/1)
+访问：[社区列表](https://github.com/icepy/Front-End-Develop-Guide/blob/master/community.md)
 
-博客地址 | RSS地址
------ | -----
-[Plane Art](http://www.planeart.cn) | <http://www.planeart.cn/?feed=rss2>
-[王玮的博客](http://imvirgo.com) | <http://imvirgo.com/feed/>
-[UED TEAM](http://www.ued163.com) | <http://www.ued163.com/?feed=rss2>
-[随网之舞](http://dancewithnet.com) | <http://feeds.feedburner.com/dancewithnet>
-[不名一格](http://www.microidc.com) | <http://www.microidc.com/feed/>
-[Hugo Web前端开发](http://www.ghugo.com) | <http://www.ghugo.com/feed/>
-[阿里巴巴（中文站）用户体验设计部博客](http://www.aliued.cn) | <http://www.aliued.cn/feed>
-[何畏](http://www.lzlu.com/blog) | <http://www.lzlu.com/blog/?feed=rss2>
-[PlanABC - 怿飞’s Blog](http://www.planabc.net) | <http://feed.planabc.net/>
-[Designsor](http://www.designsor.com) | <http://www.designsor.com/feed>
-[Time Machine](http://rlog.cn) | <http://rlog.cn/?feed=rss2>
-[为之漫笔](http://blog.cn-cuckoo.com) | <http://www.cn-cuckoo.com/feed>
-[博客园_风流涕淌](http://www.cnblogs.com/Philoo) | <http://www.cnblogs.com/Philoo/rss>
-[彬Go](http://blog.bingo929.com) | <http://blog.bingo929.com/feed>
-[Gracecode.com](http://www.gracecode.com/) | <http://feeds.gracecode.com/gracecode/>
-[Koubei UED](http://ued.koubei.com) | <http://ued.koubei.com/?feed=rss2>
-[Alibaba.com UED](http://www.aliued.com) | <http://www.aliued.com/feed/>
-[Taobao UED Team](http://ued.taobao.org/blog) | <http://ued.taobao.com/blog/feed/>
-[博客园-振之博文](http://www.cnblogs.com/zhenn/rss) | <http://www.cnblogs.com/zhenn/>
-[Kejun's Blog](http://hikejun.com/blog) | <http://hikejun.com/blog/?feed=rss2>
-[博客园_纸头折飞机](http://www.cnblogs.com/xueduanyang/) | <http://www.cnblogs.com/xueduanyang/rss>
-[最前端的生活](http://www.bq69.com/) | <http://www.bq69.com/feed>
-[腾讯CDC](http://cdc.tencent.com) | <http://cdc.tencent.com/?feed=rss2>
-[博客园_叶小钗](http://www.cnblogs.com/yexiaochai/) | <http://www.cnblogs.com/yexiaochai/rss>
-[Hua's View](http://huaview.com) | <http://huaview.com/feed>
-[RainBlog-烟雨空间](http://rain520.net/) | <http://rain520.net/Feed/rss.xml>
-[web前端开发工程师的随记--黑妞haha](http://www.heiniuhaha.cn/blog) | <http://www.heiniuhaha.cn/blog/?feed=rss2>
-[蓝色理想](http://www.blueidea.com) | <http://www.blueidea.com/common/rss.asp>
-[博客园_Ruby's Louvre](http://www.cnblogs.com/rubylouvre/) | <http://www.cnblogs.com/rubylouvre/rss>
-[hax的技术部落格](http://hax.iteye.com)|<http://hax.javaeye.com/rss>
-[CssRain-前端技术](http://www.cssrain.cn/) | <http://www.cssrain.cn/?feed=rss2>
-[MED](http://ued.alimama.com) | <http://ued.alimama.com/feed/>
-[W3CPLUS](http://www.w3cplus.com) | <http://feed.feedsky.com/W3CPlus>
-[博客园_winter-cn](http://www.cnblogs.com/winter-cn/rss) | <http://www.cnblogs.com/winter-cn/>
-[走走停停看看](http://shawphy.com) | <http://shawphy.com/feed>
-[Hi, I'm Adam Lu.](http://adamlu.com) | <http://adamlu.com/?feed=rss2>
-[WEB前端开发](http://www.css88.com) | <http://www.css88.com/feed>
-[岁月如歌](https://lifesinger.wordpress.com) | <http://lifesinger.wordpress.com/feed/>
-[Web开发中需要了解的东西](http://coolshell.cn) | <http://coolshell.cn/feed>
-[样式之美](http://www.aoao.org.cn) | <http://feeds2.feedburner.com/aoao>
-[時計坂一刻館三号室](http://www.quchao.com/) | <http://feed.quchao.com/>
-[CSS森林(CSS Forest)](http://www.cssforest.org/blog/) | <http://www.cssforest.org/blog/index.php?atom=1>
-[Ross Wan's World!](https://mrwlwan.wordpress.com) | <http://mrwlwan.wordpress.com/feed/>
-[博客园_汤姆大叔的博客](http://www.cnblogs.com/TomXu/) | <http://www.cnblogs.com/TomXu/rss>
-[前端观察](http://www.qianduan.net/) | <http://www.qianduan.net/feed>
-[张云龙个人博客](https://github.com/fouber/blog) | <https://github.com/fouber/blog>
+## <a id="fed_article"></a> 码农周刊JavaScript和前端部分优秀文章集合
 
-## <a id="fed_community"></a> 通用Developer 社区
-
-在Github上找到一个社区网站收集的项目-- [front-end-collect](https://github.com/foru17/front-end-collect)
-
-中文 Developer 社区列表，本社区列表会长期维护，如果有推荐的社区，请到此处[提交社区信息](https://github.com/w3crange/Front-End-Develop-Guide/issues/2)
-
-中文 Developer 社区列表 | 地址
------ | -----
-[领略前端技术 阅读奇舞周刊](http://www.75team.com/weekly/)|<http://www.75team.com/weekly/>
-[div.io](http://div.io/#/welcome) | <http://div.io/#/welcome>
-[稀土掘金](http://gold.xitu.io) | <http://gold.xitu.io>
-[开发者头条](http://toutiao.io/) | <http://toutiao.io/>
-[码农周刊](http://weekly.manong.io/) | <http://weekly.manong.io/>
-[InfoQ](http://www.infoq.com/cn/) | <http://www.infoq.com/cn/>
-[Segmentfault](http://segmentfault.com/) | <http://segmentfault.com/>
-[Get社区](http://get.jobdeer.com/) | <http://get.jobdeer.com/>
-[极客头条](http://geek.csdn.net/hotest) | <http://geek.csdn.net/hotest>
-[极客头条－前端](http://geek.csdn.net/forum/47) | <http://geek.csdn.net/forum/47>
-
-## <a id="fed_jishu_share"></a> 技术分享会议
-
-说明：技术分享会议引用了[ufologist](https://github.com/ufologist)项目中的收集，与自己收集的资源整理而成。
-
-会议组织列表 | 地址
----- | ----
-[D2前端技术论坛](http://www.d2forum.org/) | <http://www.d2forum.org/>
-[WebReBuild](http://webrebuild.org) | <http://webrebuild.org>
-[Velocity](http://velocity.oreilly.com.cn) | <http://velocity.oreilly.com.cn>
-[JSCONF.CN](http://jsconf.cn/) | <http://jsconf.cn/>
-[阿里技术嘉年华](http://adc.taobao.com) | <http://adc.taobao.com>
-[中国CSS开发者大会](http://css.w3ctech.com/) | <http://css.w3ctech.com/>
-[w3ctech](http://www.w3ctech.com/event) | <http://www.w3ctech.com/event>
-[HTML5梦工厂](http://www.html5dw.com/) | <http://www.html5dw.com/>
-[前端圈](http://www.fequan.com/) | <http://www.fequan.com/>
-[QCon北京](http://qconbeijing.com/) | <http://qconbeijing.com/>
-[QCon上海](http://qconshanghai.com/) | <http://qconshanghai.com/>
-[QCon@InfoQ](http://www.infoq.com/cn/qcon) | <http://www.infoq.com/cn/qcon>
-[ArchSummit](http://www.archsummit.com/) | <http://www.archsummit.com/>
-[阿里技术沙龙](http://club.alibabatech.org)| <http://club.alibabatech.org>
-[Apple WWDC](https://developer.apple.com/wwdc/) | <https://developer.apple.com/wwdc/>
-[Google I/O](https://events.google.com/io2015/)|<https://events.google.com/io2015/>
-
+访问：[码农周刊JavaScript和前端部分优秀文章集合](https://github.com/icepy/Front-End-Develop-Guide/blob/master/Articles.md)

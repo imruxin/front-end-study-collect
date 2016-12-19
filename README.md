@@ -16,7 +16,8 @@
 - [fe-store-house (平时开发和学习过程中自己收集的一些前端资源。)](https://github.com/poppinlp/fe-store-house)
 - [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
 - [https://developer.mozilla.org/zh-CN/docs/Web/Tutorials](https://developer.mozilla.org/zh-CN/docs/Web/Tutorials)
-
+- [VUE](http://cn.vuejs.org/)
+- [awesome-vue](https://github.com/vuejs/awesome-vue)
 
 
 
@@ -30,6 +31,7 @@
 - [mobile-web-favorites (移动前端开发收藏夹)](https://github.com/hoosin/mobile-web-favorites)
 - [react-native-guide (React-Native指南汇集了react-native学习资源与各类开源app)](https://github.com/ele828/react-native-guide)
 - [React Native](http://facebook.github.io/react-native/)
+
 
 
 
@@ -58,7 +60,6 @@
 - [frontend-tools (Landscaping With Front-end Tools)](https://github.com/codylindley/frontend-tools)
 - [youmightnotneedjquery](https://github.com/HubSpot/youmightnotneedjquery)
 - [DevArticles (以issues的方式记录开发过程中的点点滴滴)](https://github.com/sxyx2008/DevArticles/issues)
-- [f2e-hub](https://github.com/lvwzhen/f2e-hub)
 - [重新介绍 JavaScript(MDN)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 - [Front-end-Interview-questions (史上最全 前端开发面试问题及答案整理)](https://github.com/hawx1993/Front-end-Interview-questions)
 - [Front-end-Developer-Interview-Questions (English)](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
@@ -66,7 +67,6 @@
 - [Emmet文档](http://yanxyz.github.io/emmet-docs/)
 - [angular](https://angular.io/)
 - [AndroidDevTools](https://github.com/inferjay/AndroidDevTools)
-- [fir.im](http://fir.im/)
 - [apicloud](http://www.apicloud.com/)
 
 
@@ -90,6 +90,15 @@
 - [encodebase64DataUrl](http://www.pjhome.net/web/html5/encodeDataUrl.htm)
 - [base64Url](http://www.feedthebot.com/tools/base64/)
 - [alfredworkflow](http://www.alfredworkflow.com/)
+- [coderwall](https://coderwall.com/)
+
+- [git.oschina](https://git.oschina.net/)
+- [百度开发者中心](http://developers.baidu.com/)
+- [百度地图API](http://lbsyun.baidu.com/)
+- [高德地图API](http://lbs.amap.com/)
+- [微信开发者文档](http://mp.weixin.qq.com/wiki/home/index.html)
+- [七牛开发者文档](http://developer.qiniu.com/)
+- [搜狗微信公众号API](http://weixin.sogou.com/)
 
 <hr/>
 
@@ -102,6 +111,7 @@
 
 <hr/>
 
+- [掘金](https://gold.xitu.io/)
 - [w3ctech](http://www.w3ctech.com/)
 - [前端De早读课](http://www.zaoduke.net/)
 - [前端乱炖](http://www.html-js.com/)
@@ -109,14 +119,26 @@
 - [w3cplus](http://www.w3cplus.com/)
 - [开发者头条](http://toutiao.io/)
 - [伯乐在线](http://top.jobbole.com/)
+- [极客头条](http://geek.csdn.net/frontend)
+
+
+## Other
+
+- [v2ex](https://www.v2ex.com/)
+- [秀米](http://xiumi.us)
+- [易企秀](http://www.eqxiu.com/)
 
 
 
-## UI/WEB设计
+## UI/设计
 - [优设](http://www.uisdc.com/)
+- [ZCOOL站酷](http://www.zcool.com.cn/)
+- [UI中国](http://www.ui.cn/)
+- [花瓣](http://huaban.com/)
 - [全球酷站中心](http://www.iiiimg.com/)
 - [Reeoo](http://reeoo.com/)
 - [Straightline](http://bm.straightline.jp/)
+- [dribbble](https://dribbble.com/)
 
 
-**[点击查看部分参考资源备份（截至于20151023）](backup)**
+**[点击查看部分参考资源备份（截至于20161219）](backup)**
