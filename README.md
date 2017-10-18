@@ -3,8 +3,8 @@
 **当今世界前端正在高速迅猛的快速发展着，职能和技能要求也在不断的变化着。在我的眼里，前端开发包括了PC+Mobile+APP这三大块，发展趋势很显然是就是移动端啦。现在前端学习的资料已经很多了，技术性的东西是无止境且通常可能会有一定的时效性，为了方便自己接下去阶段性的学习与小研究，所以DIY一个前端资源汇总的汇总。**
 
 ### 一些说明：
-- 1.移动端方向自己主要是往iOS方向走，所以主要是收集iOS平台有关的学习资料，包括web版本和原生版本。
-- 2.资料来源于互联网，本着以学习交流共享为目的，欢迎在互相尊重的前提下批评、指导与更正。时间有限，所以资源有可能会部分重复。若有侵犯到您的权益请及时告知，我会及时删除。
+
+资料来源于互联网，本着以学习交流共享为目的，欢迎在互相尊重的前提下批评、指导与更正。时间有限，所以资源有可能会部分重复。若有侵犯到您的权益请及时告知，我会及时删除。
 
 
 ## 前端学习资源：
@@ -74,9 +74,11 @@
 
 ### 一些还不错的在线工具及平台快捷入口：
 - [caniuse](http://caniuse.com/)
-- [百度数据](http://tongji.baidu.com/data/browser)
-- [CNZZ数据](http://brow.data.cnzz.com/)
+- [浏览器份额·百度](http://tongji.baidu.com/data/browser)
+- [百度指数](http://zhishu.baidu.com/)
 - [腾讯大数据](http://data.qq.com/)
+- [友盟](http://www.umeng.com/)
+- [TalkingData](http://www.talkingdata.com/)
 - [jQuery API(官方)](http://api.jquery.com/)
 - [jQuery API(Hemin)](http://hemin.cn/jq/)
 - [jQuery API(愚人码头)](http://www.css88.com/jqapi-1.9/)
@@ -106,7 +108,7 @@
 
 - [stackoverflow](http://stackoverflow.com/)
 - [quora](https://www.quora.com/)
-- [知乎](http://www.zhihu.com/topic/19550901)
+- [知乎](http://www.zhihu.com/)
 - [segmentfault](http://segmentfault.com/)
 - [searchcode](https://searchcode.com/)
 
@@ -143,4 +145,4 @@
 - [dribbble](https://dribbble.com/)
 
 
-**[点击查看部分参考资源备份（截至于20161219）](backup)**
+**[点击查看部分参考资源备份（截至于20171018）](backup)**
